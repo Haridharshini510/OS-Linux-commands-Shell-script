@@ -155,6 +155,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="1094" height="180" alt="image" src="https://github.com/user-attachments/assets/7203beea-a83a-4ccc-bcee-763a517b0023" />
 
 
 
@@ -180,20 +181,22 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-<img width="1099" height="174" alt="image" src="https://github.com/user-attachments/assets/c0bdd124-48e7-4189-bada-ad3578e80707" />
+<img width="1094" height="182" alt="image" src="https://github.com/user-attachments/assets/2c44ec68-27b4-4b68-b875-1c6604c9039f" />
+
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-<img width="1091" height="179" alt="image" src="https://github.com/user-attachments/assets/c2feb750-ded4-482d-aa57-6ce282501daa" />
+<img width="1099" height="174" alt="image" src="https://github.com/user-attachments/assets/f4287e5b-c5be-49c9-93fd-893017b52383" />
+
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-<img width="1094" height="133" alt="image" src="https://github.com/user-attachments/assets/a1a14900-2331-4161-9384-2250607650e1" />
+
 
 
 
