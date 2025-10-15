@@ -87,13 +87,14 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-<img width="1096" height="171" alt="image" src="https://github.com/user-attachments/assets/4eb62b2b-7980-48ce-8b01-d9cc01997033" />
+<img width="1097" height="220" alt="image" src="https://github.com/user-attachments/assets/b41ccc44-62fe-455d-8542-706fb8d9e595" />
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-<img width="1097" height="200" alt="image" src="https://github.com/user-attachments/assets/c2e1f9e4-7624-4e5a-93df-3267448c7108" />
+<img width="1097" height="200" alt="image" src="https://github.com/user-attachments/assets/13b134da-4ab6-49d2-a3a3-d3962955ebb3" />
+
 
 
 cat < newfile 
@@ -108,46 +109,54 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-<img width="1097" height="220" alt="image" src="https://github.com/user-attachments/assets/db2bce5c-3667-4bbc-8794-1da50d05f0a9" />
+<img width="1097" height="125" alt="image" src="https://github.com/user-attachments/assets/c264e3d4-2aa5-49a0-972c-8dd018899842" />
+
 
 
 
 grep hello newfile 
 ## OUTPUT
-<img width="1097" height="125" alt="image" src="https://github.com/user-attachments/assets/92312ab7-78ef-477b-a55c-88ff36e2189a" />
+<img width="1094" height="131" alt="image" src="https://github.com/user-attachments/assets/36c195df-f88a-4dc8-83e2-c99902c536c1" />
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-<img width="1103" height="138" alt="image" src="https://github.com/user-attachments/assets/224c49dc-afe1-4153-80a5-36d5dbb4a3cc" />
+<img width="1103" height="138" alt="image" src="https://github.com/user-attachments/assets/a0fb95ff-1650-4d28-a3de-185a03f09322" />
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-<img width="1092" height="179" alt="image" src="https://github.com/user-attachments/assets/9351eafe-1995-448e-9588-c9c665b63b21" />
+<img width="1092" height="179" alt="image" src="https://github.com/user-attachments/assets/3bee52f8-8f18-49fd-b61f-08d5d792ba0e" />
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-<img width="1098" height="125" alt="image" src="https://github.com/user-attachments/assets/e2b37bcd-2a72-4e90-bdb7-c1a312c4cad8" />
+<img width="1098" height="125" alt="image" src="https://github.com/user-attachments/assets/32ebe1ee-e4ba-4c11-9512-5663c775b4f9" />
+
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-<img width="1094" height="180" alt="image" src="https://github.com/user-attachments/assets/d0a8df3d-935c-4fd6-83a1-4b3f58466dbe" />
+<img width="1101" height="299" alt="image" src="https://github.com/user-attachments/assets/647acc1b-4c14-4b54-b703-2b7ec57dd49f" />
+
+
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
-<img width="1094" height="182" alt="image" src="https://github.com/user-attachments/assets/99f8e53d-e185-46bd-a0c4-3c3ce6b97af5" />
+
+
 
 
 cat < newfile 
